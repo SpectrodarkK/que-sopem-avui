@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#1c2540">
 <title>Què sopem avui?</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Què sopem?">
 <style>
   :root{
     --nit:#1c2540; --nit2:#2a3558; --mantega:#f5d36a; --plat:#fbf7ee; --tinta:#1c2540; --suau:#b9c0d8;
@@ -96,8 +101,8 @@
 
 <script>
 /* ===== CONFIGURACIÓ DE SUPABASE (Project Settings → API) ===== */
-const SUPABASE_URL = "https://sydtkitvdbbcctpwmyqg.supabase.co";
-const SUPABASE_KEY = "sb_publishable_GfNowA-jolK_GvVbPAq6NA_KfDad1G0";   // anon / publishable (és pública per disseny)
+const SUPABASE_URL = "https://EL-TEU-PROJECTE.supabase.co";
+const SUPABASE_KEY = "LA-TEVA-CLAU-PUBLICA";   // anon / publishable (és pública per disseny)
 /* RECEPTES INICIALS: només es fan servir si la base de dades encara és buida.
    Un cop desades a Supabase, les receptes es gestionen des de l’app. */
 const SEED = [
